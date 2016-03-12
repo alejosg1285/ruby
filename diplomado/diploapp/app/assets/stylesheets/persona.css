@@ -1,0 +1,8 @@
+.caja
+{
+    width: 60%;
+    display: block;
+    background: red;
+    color: white;
+    margin: 0 auto;
+}

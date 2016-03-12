@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Procesador:</strong>
+  <%= @computador.procesador %>
+</p>
+
+<p>
+  <strong>Cant mem:</strong>
+  <%= @computador.cant_mem %>
+</p>
+
+<p>
+  <strong>Cant disco:</strong>
+  <%= @computador.cant_disco %>
+</p>
+
+<p>
+  <strong>Uni disco:</strong>
+  <%= @computador.uni_disco %>
+</p>
+
+<p>
+  <strong>Sisope:</strong>
+  <%= @computador.sisope %>
+</p>
+
+<p>
+  <strong>Tarj video:</strong>
+  <%= @computador.tarj_video %>
+</p>
+
+<p>
+  <strong>Feac fab:</strong>
+  <%= @computador.feac_fab %>
+</p>
+
+<%= link_to 'Edit', edit_computador_path(@computador) %> |
+<%= link_to 'Back', computadors_path %>

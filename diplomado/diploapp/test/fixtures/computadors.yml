@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  procesador: MyString
+  cant_mem: 1
+  cant_disco: 1
+  uni_disco: MyString
+  sisope: MyString
+  tarj_video: MyString
+  feac_fab: 2016-03-12
+
+two:
+  procesador: MyString
+  cant_mem: 1
+  cant_disco: 1
+  uni_disco: MyString
+  sisope: MyString
+  tarj_video: MyString
+  feac_fab: 2016-03-12

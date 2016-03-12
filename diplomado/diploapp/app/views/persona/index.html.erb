@@ -1,0 +1,29 @@
+<h1>Persona#index</h1>
+<span>Fecha: <%=@fecha %>, Hora: <%=@hora %></span>
+<p>Find me in app/views/persona/index.html.erb</p>
+<% if @personas.blank? %>
+    <h1>No existen registros.</h1>
+<% else %>
+    <h1>Tengo <%=@personas.count %></h1>
+    <!--<h1>Esta <%=@personas[0].hola %></h1>-->
+    <div class="caja">
+      <table>
+      <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Telefono</th>
+      </tr>
+      </thead>
+      <tbody>
+        <% @personas.each do |persona| %>
+          <tr>
+            <td><%=persona.nombre %></td>
+            <td><%=persona.edad %></td>
+            <td><%=persona.telefono %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+    </div>
+<% end %>
