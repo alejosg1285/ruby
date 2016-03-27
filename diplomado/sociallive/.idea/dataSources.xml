@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2761969542">
+  <component name="DataSourceManagerImpl" format="xml" hash="2608010465">
     <data-source source="LOCAL" name="Rails sociallive: development" uuid="ef912c91-4908-430c-a084-a0db15f6db06">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -11,6 +11,12 @@
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>
+    </data-source>
+    <data-source source="LOCAL" name="Sqlite (Xerial) - development.sqlite3" uuid="a5988311-33b3-4e39-b989-974050222494">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
     </data-source>
   </component>
 </project>

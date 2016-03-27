@@ -8,7 +8,7 @@ class PersonaController < ApplicationController
   end
 
   def saludar
-    @persona = Persona.first
+    @persona = Persona.count
     @saludo = "desde otro vista"
   end
 end

@@ -12,6 +12,8 @@ class User < ActiveRecord::Base
   has_many :text_posts
   has_many :image_posts
 
+  has_many :likes, foreign_key: :user_id, foreign_key: :post_id, dependent: :destroy
+
   def following?(leader)
     leaders.include? leader
   end
@@ -19,6 +21,12 @@ class User < ActiveRecord::Base
   def follow!(leader)
     if leader != self and !following?(leader)
       leaders << leader
+    end
+  end
+
+  def give_like!(post)
+    unless likes.include? post
+      likes << post
     end
   end
 end
