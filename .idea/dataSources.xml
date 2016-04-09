@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1815547639">
+  <component name="DataSourceManagerImpl" format="xml" hash="1094602096">
     <data-source source="LOCAL" name="Sqlite (Xerial) - development.sqlite3" uuid="05c7570e-74fe-4f52-8e9d-cdb39ddacb64">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/diplomado/diploapp/db/development.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Sqlite (Xerial) - dev_rest_api.sqlite3" uuid="205c81ed-0153-4203-a4b4-50a7ca52009f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/diplomado/rest-api/db/dev_rest_api.sqlite3</jdbc-url>
     </data-source>
   </component>
 </project>
